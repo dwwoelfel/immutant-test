@@ -6,7 +6,7 @@ Run `lein run`. A server should start and print out the port that the server is 
 
 In Safari, browse to [http://localhost:23142/](http://localhost:23142/) and refresh a few times. You'll see a table of the connections, which should refresh whenever the connections change.
 
-Notice that the channels closes, but the on-close and on-error handlers aren't fired.
+Notice that the channels close, but the on-close an on-error handlers aren't fired.
 
 You may have to force-quit Safari to get the desired effect.
 
