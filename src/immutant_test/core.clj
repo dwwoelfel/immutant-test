@@ -33,7 +33,6 @@
 
 (def handler
   (fn [req]
-    (println (:uri req))
     (if (= (:uri req) "/ws")
       (async/as-channel req
                         {:on-open (fn [ch]
